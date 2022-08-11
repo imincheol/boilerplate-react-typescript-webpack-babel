@@ -40,12 +40,11 @@ touch .tsconfig.json
     "jsx": "react",
     "noEmit": true,    
     "sourceMap": true,
-    /* Strict Type-Checking Options */
+    
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-   
-    /* Module Resolution Options */
+       
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true
