@@ -10,7 +10,7 @@ NPM 대신 Yarn 을 사용한다
 - 만약 그렇지 않다면 새 프로젝트 폴더를 만든다 
 - 명령어 : `mkdir <project_folder>`
 
-## 2. 설치
+## 2. 설치 과정 
 
 ### Yarn
 Install
@@ -213,27 +213,34 @@ export default App
   },
 ```
 
-## 5. 프로젝트 코드 
+## 4. 실행
 
-
-## 6. 실행
-
-설치
+### 설치
 ```
 yarn
 ```
 
-개발 Development
+### 개발 Development
 ```
 yarn dev
 ```
 
-빌드 Production
+### 빌드 Production
 ```
 yarn build
 ```
 
-Type Error Check
+### Type Error Check
 ```
 yarn tscheck -w
 ```
+
+## 기타 
+수정
+- 2022.0811 제작
+
+참고 사이트 
+- 기초 골대 
+  - [Create React v18 TypeScript Project with webpack and Babel](https://itnext.io/create-react-typescript-project-with-webpack-and-babel-2431cac8cf5b)
+- core-js 및 regenerator-runtime 에 대해 서칭 
+  - [FE개발자의 성장 스토리 02 : Babel7과 corejs3 설정으로 전역 오염 없는 폴리필 사용하기](https://tech.kakao.com/2020/12/01/frontend-growth-02/)
